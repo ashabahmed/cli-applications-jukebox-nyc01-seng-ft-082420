@@ -13,3 +13,13 @@ def list(songs)
   songs.each_with_index { |item, index|
     puts "#{index+1}. #{item}" }
 end 
+
+def play(songs)
+  puts "Please enter a song name or number:"
+  user_response = gets.strip
+  
+end
+
+def exit_jukebox
+  puts "Goodbye"
+end
