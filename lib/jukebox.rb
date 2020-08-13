@@ -19,7 +19,7 @@ def play(songs)
   user_response = gets.strip
   
   songs.each { |song, location| }
-    
+    binding.pry
 end
 
 def exit_jukebox
